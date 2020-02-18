@@ -1,0 +1,75 @@
+@media (max-width: 1600px) {
+  .rmp-widgets-container.rmp-wp-plugin.rmp-main-container
+    .rmp-rating-widget__results {
+    display: none !important;
+  }
+  #ajaxsearchlite1 .probox,
+  div.asl_w .probox {
+    height: 35px !important;
+    background-color: transparent !important;
+  }
+  #ajaxsearchlite1 .probox .proinput input,
+  div.asl_w .probox .proinput input {
+    font-size: 1rem !important;
+    height: 35px !important;
+  }
+  div.asl_w .probox .proloading,
+  div.asl_w .probox .promagnifier,
+  div.asl_w .probox .prosettings {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+  }
+  div.asl_w .probox .proclose {
+    display: none !important;
+  }
+  div.asl_w .probox .promagnifier {
+    display: none;
+  }
+  div.asl_r.vertical {
+    border-radius: 0.5rem !important;
+    top: 110px !important;
+  }
+  div.asl_m.asl_w {
+    background-color: transparent !important;
+  }
+  .results .asl_nores .asl_keyword {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  body .headerSec nav .container-fluid .navbar-collapse .navbar-nav {
+    text-align: center;
+  }
+  body .headerSec nav .container-fluid .navbar-collapse .navbar-nav li {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  body .headerSec nav .container-fluid .navbar-collapse .navbar-nav li a {
+    display: block;
+    width: 100%;
+  }
+  body .headerSec .headerContent h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  body .headerSec nav .container-fluid .navbar-collapse .searchSec {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  body .postsSec .postsContent {
+    width: 20rem;
+    max-width: 100%;
+  }
+  body .headerSec .headerContent h3 {
+    font-size: 1rem;
+  }
+  div.asl_r.vertical {
+    border-radius: 0.5rem !important;
+    top: 160px !important;
+  }
+}
